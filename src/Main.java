@@ -23,7 +23,7 @@ public class Main {
         for (int year = 1904; year <= 2096; year +=4)
             System.out.println("год "+ year +" является високосным");
 // Выводим в консоль все числа от 7 до 98 с шагом 7
-        System.out.println("*  Выводим ряд чисел с шагом 7  *");
+        System.out.println("*  Выводим ряд чисел 7...98 с шагом 7  *");
         for (i = 7; i <= 98; i +=7)
             System.out.println("i с шагом 7 = "+i);
 // Выводим в консоль геометрическую прогрессию от 1 до 512
