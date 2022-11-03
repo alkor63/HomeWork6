@@ -41,7 +41,7 @@ public class Main {
         double summa = 0;
         for (int month = 1; month <= 12; month++) {
             summa = (summa + salary) * 1.01;
-            System.out.println("месяц " + month + " - сумма накоплений = " + summa);
+            System.out.printf("месяц %d - сумма накоплений = %.2f \n", month, summa);
         }
     }
 }
